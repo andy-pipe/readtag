@@ -1,3 +1,4 @@
+#define _DEFAULT_SOURCE
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <sys/types.h>
@@ -6,6 +7,7 @@
 #include <string.h>
 #include <stdint.h>
 #include <math.h>
+#include <stdlib.h>
 
 #define MAX_BUF 1024
 
